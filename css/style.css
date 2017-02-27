@@ -1,0 +1,188 @@
+body{
+	margin:0;
+	padding: 0;
+	border: 0;
+	position: relative;
+	background-color: #000;
+}
+a{
+	text-decoration: none;
+}
+button{
+  outline: none;
+  border: 0;
+  position: relative;
+}
+.container-mobile{
+	width: 375px;
+	height: 667px;
+	background-color: #222;
+	margin: 60px auto 0;
+}
+.container{
+	width: 375px;
+}
+#boxes div{
+  width:100px;
+  height:100px;
+  background:#ddd;
+  margin:0 auto 1rem;
+}
+.img-star{
+	float: left;
+	margin-top: 5px; 
+}
+.contain-cards{
+	width: 100%;
+	height: auto;
+	background: red;
+	overflow-x: scroll;
+}
+.cards2{
+		width: 40px;
+		height: 180px;
+		border-radius: 10px 0 0 10px;
+		margin-top: 70px;
+		z-index: 5; 
+		float: right;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url(../image/cand2.png);
+}
+	.cards{
+		width: 85%;
+		height: 180px;
+		border-radius: 10px;
+		margin: 140px 10px 40px;
+		cursor: pointer;
+		transition: .7s;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url(../image/cand.png);
+	}
+	.is-active{
+		/*background: blue;*/
+		background-image: url(../image/cand1.png);
+	}
+
+
+	.container-fluid{
+		height: 50px;
+		padding-top: 14px;
+		background-color: #588b31;
+		box-sizing: border-box;
+	}
+	.header-text{
+		color: #fff;
+		font-size: 16px;
+	}
+	.contain-reward{
+		background-color: #314026;
+		height: 95px;
+		margin-top: 14px;
+		padding-top: 5px;
+		font-size: 12px;
+		box-sizing: border-box;
+		padding-left: : 10px;
+		color: #fff;
+	}
+	.contain-left{
+		width: 65%;
+		height: auto;
+		float: left;
+		padding-left: 6%;
+		padding-bottom: 10px;
+	}
+	.green-text1{
+		float: left;
+	}
+	.green-text2{
+		font-size: 10px;
+		margin-top: 5px;
+		color: #ccc;
+		clear: left;
+	}
+	.contain-left span.span1{
+		color: #588b31;
+		float: left;
+		margin: 5px 0 0 5px;
+		font-weight: bold;
+		font-size: 18px; 
+	}
+	.contain-left span.span2{
+		color: #588b31;
+		float: left;
+		margin-top: -22px;
+		margin-left: 5px; 
+		font-weight: bold;
+		font-size: 32px;
+	}
+	#reward{
+		width: 90px;
+		height: 40px;
+		color: #fff;
+		font-weight: bold;
+		border: 0;
+		border-radius: 4px; 
+		margin: 25px 20px 0 0; 
+		background-color: #555;
+		float: right;
+	}
+	.sub-left{
+		color: #fff;
+		float: left;
+		margin-left: 10px;
+	}
+	.sub-left span{
+		font-size: 20px;
+	}
+	.contain-button{
+		text-align: center;
+		height: auto;
+	}
+	.sub-right{
+		float: right;
+		margin-top: 10px;
+		color: #588b31;
+		margin-right: 10px;
+	}
+	.contain-button{
+		clear: left;
+		clear: right;
+	}
+	#manage{
+		height: 40px;
+		width: 105px;
+		border: 2px solid #588b31;
+		color: #fff;
+		font-size: 16px;
+		background: #588b31;
+		margin-top: 40px;
+		margin-right: 20px;
+	}
+	#addbutton{
+		height: 40px;
+		width: 105px;
+		font-size: 16px;
+		color: #fff;
+		background: #588b31;
+	}
+	#add-Card{
+		width: 130px;
+		height: 35px;
+		color: #fff;
+		border: 0;
+		background-color: #666;
+	}
+.menu-bar{
+	width: 375px;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../image/menu-bar.png);
+}

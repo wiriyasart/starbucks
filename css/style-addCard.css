@@ -1,0 +1,78 @@
+body{
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-color: #000;
+	position: relative;
+}
+.container-fluid{
+	height: 50px;
+	padding-top: 14px;
+	background-color: #588b31;
+	position: relative;
+	box-sizing: border-box;
+}
+.container-mobile{
+	width: 375px;
+	height: 667px;
+	background-color: #222;
+	margin: 60px auto 0;
+}
+.header-text{
+		color: #fff;
+		margin-left: -20px;
+		font-size: 16px;
+}
+#Cancle{
+	width: 60px;
+	height: 28px;
+	font-size: 13px;
+	float: left;
+	margin-left: 15px;
+	margin-top: -3px;
+	color: #fff;
+	outline: none;
+	border: 0;
+	background-color: #314026;
+}
+#Done{
+	width: 60px;
+	height: 28px;
+	font-size: 13px;
+	float: right;
+	margin-right: 15px;
+	outline: none;
+	margin-top: -3px;
+	color: #fff;
+	border: 0;
+	background-color: #314026;
+}
+.card{
+		width: 85%;
+		height: 180px;
+		border-radius: 10px;
+		margin: 140px auto 40px;
+		padding: 52px 0 0 87px;
+		box-sizing:border-box;
+		cursor: pointer;
+		transition: .7s;
+		position: relative;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url(../image/inputCard.png);
+}
+.input-num{
+	height: 35px;
+	width: 206px;
+	position: absolute;
+	top: 52px;
+	left: 87px;
+}
+.input-code{
+	height: 35px;
+	width: 130px;
+	position: absolute;
+	top: 92px;
+	left: 87px;
+}

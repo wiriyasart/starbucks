@@ -1,0 +1,115 @@
+body{
+	background: #000;
+	color: #666;
+	position: relative;
+}
+.container-fluid{
+	height: 50px;
+	padding-top: 14px;
+	background-color: #588b31;
+	position: relative;
+	box-sizing: border-box;
+}
+.container-mobile{
+	width: 375px;
+	height: 667px;
+	background-color: #fff;
+	margin: 60px auto 0;
+}
+.header-text{
+		color: #fff;
+		margin-left: -20px;
+		font-size: 16px;
+}
+.back{
+	width: 40px;
+	height: 27px;
+	float: left;
+	color:#fff;
+	position: absolute;
+	left: 5px;
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-image: url(../image/left-arrow.png);
+}
+.contain-bene1{
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+}
+.cup-icon1{
+	width:45px;
+	height: 55px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../image/cup.png);
+}
+.cup-right{
+	height: 40px;
+	font-size: 11.9px;
+}
+.cup-tube1{
+	height: 20px;
+	background-color: #ccc;
+}
+.cup-tube2{
+	width: 30px;
+	height: 20px;
+	background-color: #c3a972;
+}
+.cubtext{
+	width: 100%;
+	height: auto;
+	font-size: 13px;
+	margin-top: 140px;
+}
+.line1{
+	width: 100%;
+	height: 2px;
+	margin-top: 20px;
+	background-color:  #588b31;
+}
+.contain-bene2{
+	widows: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.cup-icon2{
+	width:70px;
+	height: 100px;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../image/cup.png);
+}
+.icon2-text{
+	color: #588b31;
+	width: 290px;
+	margin: 30px auto 0; 
+	font-size: 15px;
+	font-weight: bold;
+}
+.line2{
+	width: 280px;
+	height: 2px;
+	margin: 20px auto 0;
+	background-color:  #588b31;
+}
+.bene-text{
+	width: 280px;
+	height: auto;
+	margin: 10px auto 0;
+}
+.menu-bar{
+	width: 375px;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../image/menu-bar.png);
+}
